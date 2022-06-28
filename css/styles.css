@@ -1,0 +1,24 @@
+/* MENU text label */
+#offcanvasNavbarLabel{
+    font-size: 40px;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+/* Part 1 and Part 2 Text */
+.nav-item{
+    padding-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.nav-item:hover{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+/* Part 2 text only on menu */
+.link-part2{
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+}
