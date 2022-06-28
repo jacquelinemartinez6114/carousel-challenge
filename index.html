@@ -13,7 +13,44 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <!-- Navbar -->
+ <!-- Sticky navbar with Offcanvas body -->
+ <nav class="navbar sticky-top d-flex navbar-dark bg-dark fixed-top  ">
+    
+  <div class="container-fluid ms-lg-4">
+    <h3 class="text-light">Carousel Challenge Part 1</h3>
+    <img src="img\Logosinglecopy.png" class="d-block w-5" style="height:60px" alt="">
+    <a class="navbar-brand justify" href="#"></a>
+  
+    <button class="navbar-toggler me-lg-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h4 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="index.html">Part 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-part2" href="">Part 2</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Sticky navbar with Offcanvas body END -->
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
