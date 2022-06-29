@@ -23,9 +23,14 @@
     padding-top: 5px;
 }
 
-/* .carousel-item{
-    height: 900px;
-    width: 600px;
-    width: auto;
-    object-fit: cover;
-} */
+
+/* FOOTER START */
+footer {
+    background: #222;
+    color: #aaa;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: fixed;
+  }
+
+  /* FOOTER END */
